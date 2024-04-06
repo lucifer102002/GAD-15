@@ -1,0 +1,19 @@
+Module Module1
+Sub Main()
+Dim num As Integer
+Console.WriteLine("Enter a Number")
+num = Console.ReadLine()
+factorial(num)
+Console.ReadLine()
+End Sub
+Sub factorial(ByVal num As Integer)
+' local variable declaration */
+Dim i, factorial As Integer
+factorial = 1
+For i = 1 To num
+factorial = factorial * i
+Next i
+Console.WriteLine("Factorial=" & factorial)
+Console.ReadLine()
+End Sub
+End Module
