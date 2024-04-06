@@ -1,0 +1,17 @@
+Module Module1
+Sub Main()
+displaymsg()
+Dim a, b As Integer
+Console.WriteLine("Enter Value")
+a = Console.ReadLine()
+b = Console.ReadLine()
+Add(a, b)
+Console.ReadLine()
+End Sub
+Sub displaymsg()
+Console.WriteLine("Use of sub-procedure")
+End Sub
+Sub Add(ByVal a As Integer, ByVal b As Integer)
+Console.WriteLine("Addition = " & a + b)
+End Sub
+End Module
